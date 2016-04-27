@@ -21,12 +21,6 @@ if (Meteor.isClient) {
       counter: 0 // default value
     },
 
-    helpers: {
-      mycounter: function() {
-        return this.state.counter();
-      }
-    },
-
     events: {
       'click button'() {
         // increment the counter when button is clicked
